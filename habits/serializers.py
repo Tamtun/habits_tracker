@@ -7,3 +7,4 @@ class HabitSerializer(serializers.ModelSerializer):
         model = Habit
         fields = "__all__"
         read_only_fields = ["user"]
+
