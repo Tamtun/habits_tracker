@@ -65,3 +65,4 @@ class ProfileSignalTest(TestCase):
         user = User.objects.create_user(username='newuser', password='123')
         profile = Profile.objects.get(user=user)
         self.assertIsNotNone(profile)
+
