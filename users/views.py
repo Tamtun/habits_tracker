@@ -40,3 +40,4 @@ class UserViewSet(viewsets.ModelViewSet):
         return Response(
             {"error": "Invalid credentials"}, status=status.HTTP_401_UNAUTHORIZED
         )
+
